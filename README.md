@@ -26,7 +26,7 @@ Throughout the course, I will be studying and working with the following technol
 - MapReduce
 - Hadoop
 - Apache Spark
-- Apache SQL
+- Spark SQL
 - And more
 
 ## Assignment Structure
