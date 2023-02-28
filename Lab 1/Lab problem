@@ -1,0 +1,57 @@
+Instructions
+Write a Java program to accomplish the following tasks. Please submit Java program and test run on the file attached.
+
+Given a text-file input123,
+
+The program will extract each “word” and form a key-value pair (You MUST create a Pair class) where the key is the “word” and value is integer one.  Note that your program should treat Cat, cat and cAt are the same for our purpose and the word is cat.
+Each pair is inserted into a List (of pairs). (You MUST create a  Mapper class. Mapper class has a list of Pair)
+Output the List
+Note that any token with alpha characters alone is a word for us. Tokens such as input123, abc.txt,  a23bc and abc_ptr  are not words. However, xyz is a word for us. Similarly, key-value is two words. Note that "Hello! How are you, Abc?" contains five words: hello,  how, are, you and abc.
+As a good programming habit, you want to use generics.
+Example:
+
+INPUT :
+
+--------------------------------------------------------------------------
+
+Write a Java program to accomplish the following tasks.
+
+Given a text-file as input,
+
+-----------------------------------------------------------------------------------
+
+OUTPUT:
+
+(write, 1)
+
+(a, 1)
+
+(java, 1)
+
+(program, 1)
+
+(to, 1)
+
+(accomplish, 1)
+
+(the, 1)
+
+(following, 1)
+
+(tasks, 1)
+
+(given, 1)
+
+(a, 1)
+
+(text, 1)
+
+(file, 1)
+
+(as, 1)
+
+(input, 1)
+
+--------------------------------------------------------------------------
+
+Please test your program using the attached file "testDataForW1D1.txt".
