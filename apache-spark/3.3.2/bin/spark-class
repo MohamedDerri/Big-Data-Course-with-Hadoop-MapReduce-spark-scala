@@ -1,0 +1,2 @@
+#!/bin/bash
+JAVA_HOME="/usr/local/opt/openjdk" exec "/usr/local/Cellar/apache-spark/3.3.2/libexec/bin/spark-class"  "$@"
